@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="184CF4D9-4463-16A9-18F9-66F236D58163" name="EMPREGADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:13:46 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_emp" id="41BE8C59-3536-8D87-FBE5-268DFCFF0470">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:15:11 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pri_nome" id="9E5FC256-56C4-BE91-A9E4-D6C8C6C71C76">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:17:17 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_meio" id="6063B8FB-AE96-8E59-6DD4-5A4E051A764C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:17:40 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ult_nome" id="F2CA5567-8657-EAC6-DF83-76CBB36E0082">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:18:19 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_contratacao" id="1B014FF2-4D68-5AFC-070A-FA20E90D01BE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:22:13 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="D4190E31-4F15-7D40-E7A1-133420910B2F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:18:33 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD8F6E20-3514-8E73-DF5C-22D2D1DBB52D" name="EMPREGADOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-03-28 12:17:10 UTC</createdTime>
+<ownerDesignName>exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DBD83CE6-750D-9076-357B-D1A1C1BE5001" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41BE8C59-3536-8D87-FBE5-268DFCFF0470</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
