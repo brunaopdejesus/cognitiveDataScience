@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6267E2F5-7552-A683-9456-D7B3E033279F" name="DURACOES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:40:46 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codDuracao" id="53071E15-5195-2A10-AB66-1FF1CE04169A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:40:55 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="CFB2CDE5-19E6-5B8B-B7FD-E1889CF4295C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:41:07 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E77CF8D-5B4A-368D-FF0F-7B4A40499685" name="DURACOES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:41:05 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53071E15-5195-2A10-AB66-1FF1CE04169A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

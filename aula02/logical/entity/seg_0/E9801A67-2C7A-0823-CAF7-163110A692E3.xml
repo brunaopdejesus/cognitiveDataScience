@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9801A67-2C7A-0823-CAF7-163110A692E3" name="INSTRUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:10:24 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codInstrutor" id="913387C2-EA33-0B63-158D-5A569148DFE6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:13:44 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5DFD71BC-A744-F743-54AF-C3488ED304BF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:14:02 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="FE0FF244-C777-44CF-0784-6756BD8A8E73">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:29:18 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="045A87A3-2C59-F4D3-D46A-F3270044B053">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:14:19 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="6EE5A427-C693-A65C-25CB-D95F5F6C1A76">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:14:34 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modulo" id="974D952B-E1C6-2F2E-9632-FA12C3F9FDF0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:16:17 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9FDE0E8-1E01-D381-8557-5C9ADE47F507" name="Instrutor PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 11:14:00 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="856D0409-C040-2CB5-AE05-BE34FC17F6A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>913387C2-EA33-0B63-158D-5A569148DFE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
