@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A1673E9-5546-88FF-91AD-2611F0271E7E" name="CURSOS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:16 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="D24FCC3E-D8D6-CC63-7613-339EF2611A42">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:25 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="79EEB2DB-3FF6-D2C8-4CB9-7375A64DECCF">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:32 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="4B76155D-2ACD-02CA-73E2-8009F5524F13">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:36 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracao" id="54A3BF8A-E5E9-5C7B-2A0F-C69882730416">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:42 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C76D3C8-6CCD-19CA-2B76-F83314666EE1" name="CURSOS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:42:31 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D24FCC3E-D8D6-CC63-7613-339EF2611A42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

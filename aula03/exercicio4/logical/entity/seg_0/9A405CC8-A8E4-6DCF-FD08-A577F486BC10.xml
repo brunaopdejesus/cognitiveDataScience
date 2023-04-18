@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A405CC8-A8E4-6DCF-FD08-A577F486BC10" name="ALUNOS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:02 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_aluno" id="E2A6A7B3-B27D-4B92-2875-F3345F86BAAC">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:07 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pri_nome" id="C456E8F8-D1B9-50F2-04CE-4DFB45C8A2CF">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:12 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_meio" id="37636A31-7178-0810-D1A1-46D5A79485B6">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:18 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ult_nome" id="BA43F59A-5C94-F522-9A8C-216BE3CAC3B0">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:28 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="CB863A8E-E5ED-F62E-550D-2229BF8D8FC8">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:57 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="4B0BF310-AA31-4EA4-BB87-E6CC09980F73">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:41:09 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_curso" id="505041CB-5CA0-EAC9-CE53-C8AFA1D78368">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:14:27 UTC</createdTime>
+<generatorID>C9D90801-F659-FCAF-AF6F-8B7EC952FF8F</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<referedAttribute>D24FCC3E-D8D6-CC63-7613-339EF2611A42</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9340B6F9-B821-A050-68ED-8267B7DE84B4" name="ALUNOS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 11:40:11 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="CB2C0A62-1830-0C31-5DCD-97450D2C8CC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2A6A7B3-B27D-4B92-2875-F3345F86BAAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
