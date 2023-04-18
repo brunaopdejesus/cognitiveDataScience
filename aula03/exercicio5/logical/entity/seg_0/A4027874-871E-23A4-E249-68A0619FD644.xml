@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4027874-871E-23A4-E249-68A0619FD644" name="AUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:05:49 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="460703BE-4634-6C7C-2E8D-DB0256F6EBCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_autor" id="B219F80F-EC0E-DC9C-85CD-2ACFBA71165C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:05:56 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="460703BE-4634-6C7C-2E8D-DB0256F6EBCA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="893FABEF-A047-5310-9420-0394DEDB7069">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:06:12 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="460703BE-4634-6C7C-2E8D-DB0256F6EBCA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="B73F90DB-2056-B739-4281-82AAE5E09610">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:34:00 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="460703BE-4634-6C7C-2E8D-DB0256F6EBCA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7ECE0DFB-2E43-E8EB-EA79-1D819DBF959C" name="AUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:06:21 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="460703BE-4634-6C7C-2E8D-DB0256F6EBCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B219F80F-EC0E-DC9C-85CD-2ACFBA71165C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
