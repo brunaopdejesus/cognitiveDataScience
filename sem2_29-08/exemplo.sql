@@ -1,0 +1,46 @@
+--Brasil
+DROP TABLE SI;
+CREATE TABLE SI
+(COD INT,
+NOME VARCHAR(100));
+
+DESC SI;
+
+INSERT INTO SI VALUES (1,'MEG');
+INSERT INTO SI VALUES (2,'BOB');
+
+SELECT * FROM SI;
+
+COMMIT;
+-------------------------------------
+DELETE FROM SI
+WHERE COD=2;
+
+SELECT * FROM SI;
+
+ROLLBACK;
+-------------------------------------
+UPDATE SI
+SET COD =20 WHERE COD = 2;
+ROLLBACK;
+
+
+
+
+--China
+DESC SI;
+
+SELECT * FROM SI;
+
+INSERT INTO SI VALUES (3,'PETTER');
+INSERT INTO SI VALUES (4,'SCOTT');
+
+SELECT * FROM SI;
+
+COMMIT;
+------------------------------------
+SELECT * FROM SI;
+------------------------------------
+UPDATE SI
+SET COD =200 WHERE COD = 2;
+ROLLBACK;
